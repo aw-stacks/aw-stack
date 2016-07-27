@@ -14,7 +14,7 @@ import uiBootstrap from 'angular-ui-bootstrap';
 
 import PageHeaderDirective from './app/components/pageHeader/pageHeader-directive';
 
-import DashboardPage from './app/pages/dashboard';
+import HomePage from './app/pages/home';
 import AboutPage from './app/pages/about';
 
 import AuthService from './app/common/services/authenticate';
@@ -22,7 +22,7 @@ import AuthService from './app/common/services/authenticate';
 let app = angular.module('awstack', [
     uiRouter,
     uiBootstrap,
-    DashboardPage,
+    HomePage,
     AboutPage,
     PageHeaderDirective
   ]);
