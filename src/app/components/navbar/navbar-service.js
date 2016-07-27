@@ -6,8 +6,8 @@ class NavbarService {
   constructor() {
     this.navbar = {
       "navItems": [{
-        "title": "Dashboard",
-        "label": "Dashboard",
+        "title": "Home",
+        "label": "Home",
         "linkTo": "#"
       }, {
         "title": "About Us",

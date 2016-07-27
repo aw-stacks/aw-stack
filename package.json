@@ -1,8 +1,8 @@
 {
-  "name": "nodemyadmin",
-  "version": "0.0.1",
+  "name": "aw-stack",
+  "version": "0.0.2",
   "author": "Ashwin Hegde",
-  "description": "A tool intended to handle the administration of MySQL over the web for JavaScript developers",
+  "description": "A aw-stack is a Angular.js 1.5.x, Webpack, ES6 (ECMAScript 2015), Babel, Karma, Jasmine, Twitter Bootstrap, LESS , ESLint, LESSHint front-end stack.",
   "contributors": [
     {
       "name": "Ashwin Hegde",
@@ -10,7 +10,7 @@
     }
   ],
   "scripts": {
-    "start": "babel-node ./server/server.js",
+    "start": "http-server",
     "dev": "webpack -d --watch",
     "build": "webpack -p -d",
     "eslint": "./node_modules/.bin/eslint 'src/app/**/*.js'",
@@ -19,19 +19,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/hegdeashwin/nodemyadmin"
+    "url": "http://github.com/hegdeashwin/aw-stack"
   },
   "issues": {
-    "url": "http://github.com/hegdeashwin/nodemyadmin/issues?state=open"
+    "url": "http://github.com/hegdeashwin/aw-stack/issues?state=open"
   },
   "milestones": {
-    "url": "http://github.com/hegdeashwin/nodemyadmin/issues/milestones"
+    "url": "http://github.com/hegdeashwin/aw-stack/issues/milestones"
   },
   "releases": {
-    "url": "http://github.com/hegdeashwin/nodemyadmin/releases"
+    "url": "http://github.com/hegdeashwin/aw-stack/releases"
   },
   "wiki": {
-    "url": "http://github.com/hegdeashwin/nodemyadmin/wiki"
+    "url": "http://github.com/hegdeashwin/aw-stack/wiki"
   },
   "dependencies": {
     "angular": "^1.5.5",
@@ -44,14 +44,6 @@
     "es6-promise": "^3.2.1",
     "es6-shim": "^0.35.0",
     "font-awesome": "^4.6.1",
-    "good": "^6.2.0",
-    "good-console": "^5.0.2",
-    "hapi": "^13.4.1",
-    "inert": "^4.0.0",
-    "joi": "^6.5.0",
-    "jquery": "^2.1.4",
-    "jsonwebtoken": "^5.4.1",
-    "mysql": "^2.7.0"
   },
   "devDependencies": {
     "angular-mocks": "^1.5.7",
@@ -80,9 +72,9 @@
     "webpack": "^1.13.0"
   },
   "keywords": [
-    "mysqladmin",
-    "mysql",
-    "nodemysql"
+    "angular-wwebpack stack",
+    "front-end stack",
+    "stack"
   ],
   "engines": {
     "node": ">=4.2.3"
@@ -90,7 +82,7 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://raw.github.com/hegdeashwin/nodemyadmin/master/LICENSE"
+      "url": "http://raw.github.com/hegdeashwin/aw-stack/master/LICENSE"
     }
   ]
 }
