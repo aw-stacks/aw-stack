@@ -1,6 +1,6 @@
 {
   "name": "nodemyadmin",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Ashwin Hegde",
   "description": "A tool intended to handle the administration of MySQL over the web for JavaScript developers",
   "contributors": [

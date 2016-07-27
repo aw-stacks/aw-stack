@@ -1,0 +1,20 @@
+<!doctype html>
+<html ng-app="awstack">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>aw-stack</title>
+</head>
+<body>
+
+	<page-header ng-transclude>
+		<navbar name="aw-stack" version="0.0.1" link-to="#">
+		</navbar>
+	</page-header>
+
+	<div class="container">
+		<ui-view></ui-view>
+	</div>
+
+<script type="text/javascript" src="app.min.js"></script></body>
+</html>
