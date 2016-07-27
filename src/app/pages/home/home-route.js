@@ -1,13 +1,13 @@
 'use strict';
 
-import DashboardTpl from './dashboard-tpl.html';
+import HomeTpl from './home-tpl.html';
 
 export default function routes($stateProvider) {
   $stateProvider
-    .state('dashboard', {
+    .state('home', {
       url: '/',
-      templateUrl: DashboardTpl,
-      controller: 'DashboardCtrl',
-      controllerAs: 'dashboard'
+      templateUrl: HomeTpl,
+      controller: 'HomeCtrl',
+      controllerAs: 'home'
     });
 };
