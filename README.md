@@ -29,6 +29,10 @@ Install dependencies:
 npm install
 ```
 
+## Stack Editions:
+
+> If you are looking for Angular2 + Webpack + TypeScript stack then visit "[aw-stack-2](https://github.com/hegdeashwin/aw-stack-2)"
+
 ## Author & Contributors
 
 Developed &amp; maintained by author: Ashwin Hegde and contributions.
