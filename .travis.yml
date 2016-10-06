@@ -1,0 +1,6 @@
+before_script:
+    - npm install -g karma-cli webpack http-server
+
+language: node_js
+node_js:
+    - "4.0.0"
