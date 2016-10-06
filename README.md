@@ -4,7 +4,7 @@ aw-stack is a Angular.js 1.5.x, Angular-UI, Webpack, ES6 (ECMAScript 2015), Babe
 
 ## Prerequisites
 
-Node.js 4.2.3 or above
+Node.js 6.0.0 or above
 
 ## Installation
 
@@ -13,13 +13,9 @@ Assuming that Git is already installed & running:
 git clone https://github.com/hegdeashwin/aw-stack.git
 ```
 
-Installing Karma-cli, Webpack and http-server npm packages globally
+Installing Karma-cli and Webpack npm packages globally
 ```
-npm install -g karma-cli
-
-npm install -g webpack
-
-npm install -g http-server
+npm install -g karma-cli webpack
 ```
 
 Assuming that Node.js and npm is already installed & running,
