@@ -1,6 +1,6 @@
 {
   "name": "aw-stack",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Ashwin Hegde",
   "description": "A aw-stack is a Angular.js 1.5.x, Webpack, ES6 (ECMAScript 2015), Babel, Karma, Jasmine, Twitter Bootstrap, LESS , ESLint, LESSHint front-end stack.",
   "contributors": [
@@ -10,7 +10,8 @@
     }
   ],
   "scripts": {
-    "start": "http-server",
+    "start": "NODE_ENV=production node server.js",
+    "docker": "NODE_ENV=production nodejs server.js",
     "dev": "webpack -d --watch",
     "build": "webpack -p -d",
     "eslint": "./node_modules/.bin/eslint 'src/app/**/*.js'",
@@ -44,6 +45,8 @@
     "es6-promise": "^3.2.1",
     "es6-shim": "^0.35.0",
     "font-awesome": "^4.6.1",
+    "express": "~4.14.0",
+    "body-parser": "~1.15.2"
   },
   "devDependencies": {
     "angular-mocks": "^1.5.7",
