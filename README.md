@@ -1,4 +1,4 @@
-# aw-stack [![GitHub version](http://img.shields.io/badge/version-0.0.2-brightgreen.svg)](https://github.com/hegdeashwin/aw-stack/releases)
+# aw-stack [![GitHub version](http://img.shields.io/badge/version-0.0.3-brightgreen.svg)](https://github.com/hegdeashwin/aw-stack/releases)
 
 aw-stack is a Angular.js 1.5.x, Angular-UI, Webpack, ES6 (ECMAScript 2015), Babel, Karma, Jasmine, Twitter Bootstrap, LESS , ESLint, LESSHint front-end stack.
 
