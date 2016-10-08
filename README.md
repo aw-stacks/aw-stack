@@ -31,7 +31,7 @@ npm install
 
 ## Author & Contributors
 
-Developed &amp; maintained by author: Ashwin Hegde and contributions.
+Developed & maintained by author: Ashwin Hegde and contributions.
 
 We really appreciate all kind of contributions. Special thanks to [contributors](//github.com/hegdeashwin/aw-stack/graphs/contributors) for using and supporting aw-stack.
 

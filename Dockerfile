@@ -9,24 +9,25 @@ MAINTAINER Ashwin Hegde <ashwin.hegde3@gmail.com>
 RUN apt-get update
 
 # Install nodejs and npm
-RUN apt-get install -y nodejs npm
+RUN apt-get install -y nodejs nodejs-legacy npm git
 
 # Create app directory
 RUN mkdir -p /usr/aw-stack
 WORKDIR /usr/aw-stack
 
 # Install dependencies at global level
-RUN npm install -g grunt-cli bower
+RUN npm install -g karma-cli
+RUN npm install -g webpack
 
 # Install app dependencies
 COPY package.json /usr/aw-stack
 RUN npm install
 
-# Run source build
-RUN grunt build
-
 # Bundle app source
 COPY . /usr/aw-stack
+
+# Run source build
+RUN npm run build
 
 # Your app binds to port 8000 so you'll use the EXPOSE instruction
 # to have it mapped by the docker daemon
