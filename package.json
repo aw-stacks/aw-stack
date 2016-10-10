@@ -1,6 +1,6 @@
 {
   "name": "aw-stack",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Ashwin Hegde",
   "description": "A aw-stack is a Angular.js 1.5.x, Webpack, ES6 (ECMAScript 2015), Babel, Karma, Jasmine, Twitter Bootstrap, LESS , ESLint, LESSHint front-end stack.",
   "contributors": [
