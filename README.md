@@ -1,7 +1,7 @@
-# aw-stack [![GitHub version](http://img.shields.io/badge/version-0.0.3-brightgreen.svg)](https://github.com/hegdeashwin/aw-stack/releases)
+# aw-stack [![GitHub version](http://img.shields.io/badge/version-0.0.4-brightgreen.svg)](https://github.com/hegdeashwin/aw-stack/releases)
 
 
-[![Supports Docker](https://img.shields.io/badge/Support-Docker-orange.svg)](https://hub.docker.com/r/hegdeashwin/protocore/)
+[![Supports Docker](https://img.shields.io/badge/Support-Docker-orange.svg)](https://hub.docker.com/r/hegdeashwin/aw-stack/)
 
 aw-stack is a Angular.js 1.5.x, Angular-UI, Webpack, ES6 (ECMAScript 2015), Babel, Karma, Jasmine, Twitter Bootstrap, LESS , ESLint, LESSHint front-end stack.
 
